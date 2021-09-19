@@ -46,6 +46,25 @@ header div p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
+}
+
+.quiz-question {
+    border: 2px solid black;
+    text-align: left;
+}
+
+#start-btn {
+    border: none;
+    border-radius: 5px;
+}
+
+#start-btn:hover {
+    border: 2px solid white;
+}
+
+.quiz-question {
+    justify-content: center;
 }
 
 
