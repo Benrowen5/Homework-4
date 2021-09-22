@@ -26,32 +26,34 @@ header h1 {
     border: 2px solid black;
 }
 
-header div p {
-    border: 2px solid black;    
-}
-
-.header-foot {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 /* MAIN SECTION STYLES */
-.quiz-section {
+.card {
     margin: 35px;
     padding: 35px;
     text-align: center;
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     border: 2px solid black;
 }
 
-.quiz-question {
+.card-header {
+    padding: 0 10px;
+    font-size: 10px;
+    flex: 1 100%;
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: flex-start;
+    justify-content: space-between;
     border: 2px solid black;
-    text-align: left;
+}
+
+.card-body {
+    margin: 15px 0;
+    padding: 15px;
+    flex: 1 100%;
+    border: 2px solid black;
 }
 
 #start-btn {
@@ -60,11 +62,15 @@ header div p {
 }
 
 #start-btn:hover {
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
-.quiz-question {
-    justify-content: center;
+.card-footer {
+    flex: 1 100%;
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
 }
+
 
 
